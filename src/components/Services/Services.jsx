@@ -7,7 +7,7 @@ import Card from '../Card/Card';
 import { themeContext } from '../../Context';
 import { useContext } from 'react';
 import { motion } from 'framer-motion';
-import Resume from './resume.docx';
+import Resume from './CV Form.pdf';
 const Services = () => {
   const theme = useContext(themeContext);
   const darkMode = theme.state.darkMode;

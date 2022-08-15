@@ -6,6 +6,11 @@ import Hoc from '../../img/hoc.png';
 import Musicapp from '../../img/musicapp.png';
 import SideBar from '../../img/sidebar.png';
 import Ecommerce from '../../img/ecommerce.png';
+
+import Manga from '../../img/manga.png';
+import Ps5 from '../../img/ps5.png';
+import Series from '../../img/series.png';
+import GameShop from '../../img/gameshop.png';
 const Portfolio = () => {
   return (
     <div className='portfolio' id='Portfolio'>
@@ -18,16 +23,16 @@ const Portfolio = () => {
         className='portfolio-slider'
       >
         <SwiperSlide>
-          <img src={SideBar} alt='sidebar' />
+          <img src={Manga} alt='sidebar' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Ecommerce} alt='ecommerce' />
+          <img src={Series} alt='ecommerce' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Musicapp} alt='musicapp' />
+          <img src={GameShop} alt='musicapp' />
         </SwiperSlide>
         <SwiperSlide>
-          <img src={Hoc} alt='hoc' />
+          <img src={Ps5} alt='hoc' />
         </SwiperSlide>
       </Swiper>
     </div>

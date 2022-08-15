@@ -24,10 +24,8 @@ const Intro = () => {
           <span style={{ color: darkMode ? 'white' : '' }}>Hy! I Am </span>
           <span>AMG DEV</span>
           <span style={{ fontSize: '24px' }}>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit.
-            Consequatur nesciunt odio maiores, doloribus quae officia
-            dignissimos ipsum autem laborum nobis! Doloribus enim quia minima
-            vitae vel! Qui iure possimus odio.
+          I'm a Web Developer and designer from Yangon. I can create websites to help businesses do better.
+
           </span>
         </div>
         <button className='button i-button'>Hire Me</button>
